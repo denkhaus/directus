@@ -363,7 +363,7 @@ revision_delta_reverted: Reverted
 revision_delta_update_message: This field has been updated but its value is being concealed for security reasons.
 revision_delta_other: Revision
 revision_delta_by: '{date} by {user}'
-presentation_text_values_cannot_be_reimported: "Uses presentation text, values can not be re-imported."
+presentation_text_values_cannot_be_reimported: 'Uses presentation text, values can not be re-imported.'
 download_page_as_csv: 'Download Page as CSV'
 private_user: Private User
 creation_preview: Creation Preview
@@ -677,9 +677,13 @@ start_end_of_count_filtered_items: '{start}-{end} of {count} filtered items'
 one_item: '1 item'
 one_filtered_item: '1 filtered item'
 delete_collection_are_you_sure: >-
-  Are you sure you want to delete the collection "{collection}"? This will delete the collection and all items in it. This action is permanent.
-delete_folder_are_you_sure: Are you sure you want to delete the folder "{folder}"? Nested folders and collections will be moved to the top most level.
-delete_collection_peer_dependencies: The following fields will be deleted as well, as they are related to the current collection.
+  Are you sure you want to delete the collection "{collection}"? This will delete the collection and all items in it.
+  This action is permanent.
+delete_folder_are_you_sure:
+  Are you sure you want to delete the folder "{folder}"? Nested folders and collections will be moved to the top most
+  level.
+delete_collection_peer_dependencies:
+  The following fields will be deleted as well, as they are related to the current collection.
 collections_shown: Collections Shown
 visible_collections: Visible Collections
 hidden_collections: Hidden Collections
@@ -1379,6 +1383,7 @@ share_copy_link: Copy Link
 share_copy_link_success: Link Copied
 share_copy_link_error: Unable to Copy Link
 share_send_link: Send Link
+shared_login_to_update: You must be logged in to edit this information.
 relational_triggers: Relational Triggers
 referential_action_field_label_m2o: On Delete of {collection}...
 referential_action_field_label_o2m: On Deselect of {collection}...
@@ -1789,7 +1794,9 @@ interfaces:
     value_securely_saved: Value Securely Saved
     generate: Generate Token
     regenerate: Regenerate Token
-    generate_success_copy: Make sure to backup and copy the token above. For security reasons, you will not be able to view the token again after saving and navigate off this page.
+    generate_success_copy:
+      Make sure to backup and copy the token above. For security reasons, you will not be able to view the token again
+      after saving and navigate off this page.
     remove_token: Remove Token
   system-raw-editor:
     system-raw-editor: Raw Editor
@@ -2090,7 +2097,10 @@ triggers:
 a_flow_uuid: Select a Flow to trigger...
 any_string_or_json: Any string or JSON...
 item_payload_placeholder: This is the JSON used to update the item's field values...
-operation_variables_note: You can access flow data with variables such as **{'{'}{'{'}$last{'}'}{'}'}**, **{'{'}{'{'}$trigger{'}'}{'}'}** and **{'{'}{'{'}$accountability{'}'}{'}'}**, or reference previous operations using **{'{'}{'{'}operation_key{'}'}{'}'}**.'
+operation_variables_note:
+  You can access flow data with variables such as **{'{'}{'{'}$last{'}'}{'}'}**, **{'{'}{'{'}$trigger{'}'}{'}'}** and
+  **{'{'}{'{'}$accountability{'}'}{'}'}**, or reference previous operations using
+  **{'{'}{'{'}operation_key{'}'}{'}'}**.'
 operations:
   condition:
     name: Condition
@@ -2143,7 +2153,7 @@ operations:
     message: Message
   request:
     name: Webhook / Request URL
-    description: "Make a request to a URL"
+    description: 'Make a request to a URL'
     url: URL
     url_placeholder: https://example.com/example
     method: Method
